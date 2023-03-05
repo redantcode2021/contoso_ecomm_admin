@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "51926679654",
+    "project_id": "contoso-ecomm",
+    "storage_bucket": "contoso-ecomm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51926679654:android:589d3ef7a15384333aada7",
+        "android_client_info": {
+          "package_name": "com.example.contoco_ecom_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51926679654-dsrko1f52m7ur3nmi8p5fuvb6t9em3q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjre3gawclC-CbE-RAiZPrinG7dki6Pes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51926679654-dsrko1f52m7ur3nmi8p5fuvb6t9em3q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51926679654:android:ace60d4dc74120783aada7",
+        "android_client_info": {
+          "package_name": "com.example.contoso_ecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51926679654-dsrko1f52m7ur3nmi8p5fuvb6t9em3q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjre3gawclC-CbE-RAiZPrinG7dki6Pes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51926679654-dsrko1f52m7ur3nmi8p5fuvb6t9em3q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
