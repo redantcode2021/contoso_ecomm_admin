@@ -25,6 +25,7 @@ class MyApp extends StatelessWidget {
       getPages: [
         GetPage(name: '/products', page: () => ProductScreen()),
         GetPage(name: '/products/new', page: () => NewProductScreen()),
+        GetPage(name: '/order', page: () => const OrderScreen()),
       ],
     );
   }
