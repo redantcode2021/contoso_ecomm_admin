@@ -95,7 +95,7 @@ class Order extends Equatable {
       isAccepted: snap['isAccepted'] ?? false,
       isDelivered: snap['isDelivered'] ?? false,
       isCancelled: snap['isCancelled'] ?? false,
-      createdAt: DateTime.fromMillisecondsSinceEpoch(snap['createdAt']),
+      createdAt: snap['createdAt'].toDate(),
     );
   }
 
