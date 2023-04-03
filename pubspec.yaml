@@ -29,6 +29,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  charts_flutter_new: ^0.12.0
   cloud_firestore: ^4.4.3
   cupertino_icons: ^1.0.2
   equatable: ^2.0.5
@@ -38,7 +39,7 @@ dependencies:
     sdk: flutter
   get: ^4.6.5
   image_picker: ^0.8.6+4
-  intl: ^0.18.0
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_lints: ^2.0.0
