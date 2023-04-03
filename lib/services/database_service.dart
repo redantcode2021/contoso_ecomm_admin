@@ -1,4 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:contoco_ecom_admin/models/order_stats_model.dart';
 
 import '../models/models.dart';
 import '../models/order_model.dart' as order;
@@ -58,5 +59,17 @@ class DatabaseService {
             querySnapshot.docs.first.reference.update({field: newValue})
           },
         );
+  }
+
+  Future<List<OrderStats>> getOrderStats() {
+    return _firebaseFirestore
+        .collection('order_stats')
+        .orderBy('dateTime')
+        .get()
+        .then((querySnapshot) => querySnapshot.docs
+            .asMap()
+            .entries
+            .map((entry) => OrderStats.fromSnapshot(entry.value, entry.key))
+            .toList());
   }
 }
